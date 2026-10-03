@@ -6,14 +6,12 @@ import java.io.Serializable;
 
 public class Feriado implements Serializable {
 
-        @SerializedName("date")
-        private String data;
-        @SerializedName("name")
-        private String nome;
-        @SerializedName("type")
-        private String tipo;
-
-        public Feriado(){}
+    @SerializedName("date")
+    private String data;
+    @SerializedName("name")
+    private String nome;
+    @SerializedName("type")
+    private String tipo;
 
     public String getNome() {
         return nome;
@@ -23,19 +21,21 @@ public class Feriado implements Serializable {
         this.nome = nome;
     }
 
+    public Feriado(){}
+
     public Feriado (String data, String nome, String tipo){
-            this.data = data;
-            this.nome = nome;
-            this.tipo = tipo;
-        }
+        this.data = data;
+        this.nome = nome;
+        this.tipo = tipo;
+    }
 
-        public String getData() {
-            return data;
+    public String getData() {
+        return data;
 
-        }
+    }
 
-        public void setData(String data) {
-            this.data = data;
-        }
+    public void setData(String data) {
+        this.data = data;
+    }
 }
 

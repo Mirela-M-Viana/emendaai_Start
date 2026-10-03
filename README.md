@@ -16,3 +16,4 @@ não usa chave, então nada de segredo dentro do código do app.
 | `GET /api/cep/v2/{cep}` | objeto com rua, bairro, cidade e UF |
 
 
+# aplicacoes-mobile-emendaai-start
